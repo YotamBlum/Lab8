@@ -22,5 +22,5 @@ No browser UI will pop up when puppeteer is run.
 5. What would your beforeAll callback look like if you wanted to start from the settings page before every test case?
 
 ```
-await page.click('img[alt=""]')
+await page.click('img[alt="settings"]')
 ```
